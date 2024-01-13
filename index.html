@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="fonts-awsome/css/fontawesome.css" rel="stylesheet">
+	  <link href="fonts-awsome/css/brands.css" rel="stylesheet">
+	  <link href="fonts-awsome/css/solid.css" rel="stylesheet">
+    <title>Kalakaar</title>
+    <!-- Additional meta tags, stylesheets, or scripts can be included here -->
+    <style>
+    	@font-face {
+		    font-family: 'geomanistregular';
+		    src: url('fonts/Geomanist-Regular-Webfont/geomanist-regular-webfont.eot');
+		    src: url('fonts/Geomanist-Regular-Webfont/geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		         url('fonts/Geomanist-Regular-Webfont/geomanist-regular-webfont.woff2') format('woff2'),
+		         url('fonts/Geomanist-Regular-Webfont/geomanist-regular-webfont.woff') format('woff'),
+		         url('fonts/Geomanist-Regular-Webfont/geomanist-regular-webfont.ttf') format('truetype'),
+		         url('fonts/Geomanist-Regular-Webfont/geomanist-regular-webfont.svg#geomanistregular') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+		}
+		@font-face {
+		    font-family: 'Geomanist-Bold';
+		    src: url('fonts/Geomanist-Bold/Geomanist-Bold.woff2') format('woff2'),
+		        url('fonts/Geomanist-Bold/Geomanist-Bold.woff') format('woff');
+		    font-weight: bold;
+		    font-style: normal;
+		    font-display: swap;
+		}
+
+		@font-face {
+		    font-family: 'Geomanist-Medium';
+		    src: url('fonts/Geomanist-Medium/Geomanist-Medium.eot');
+		    src: local('Geomanist Medium'), local('Geomanist-Medium'),
+		        url('fonts/Geomanist-Medium/Geomanist-Medium.eot?#iefix') format('embedded-opentype'),
+		        url('fonts/Geomanist-Medium/Geomanist-Medium.woff2') format('woff2'),
+		        url('fonts/Geomanist-Medium/Geomanist-Medium.woff') format('woff'),
+		        url('fonts/Geomanist-Medium/Geomanist-Medium.ttf') format('truetype');
+		    font-weight: 500;
+		    font-style: normal;
+		}
+    	body{
+    		margin:0;
+    		padding:0;
+		 	height: 100%;
+	 	    overflow-y: hidden;
+    	}
+    	section{
+    		height:100vh;
+    	
+    		background:url("bg.webp") no-repeat;
+    		background-size: cover;
+    		text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    	}
+    	.inner-section{
+		    display: flex;
+    		flex-direction: column;
+    	}
+    	.video-img{
+    		-webkit-box-shadow: -15px 21px 39px -14px rgba(0,0,0,0.75);
+			-moz-box-shadow: -15px 21px 39px -14px rgba(0,0,0,0.75);
+			box-shadow: -15px 21px 39px -14px rgba(0,0,0,0.75);
+    	}
+    	.social-media-section{
+
+    	}
+    	.social-media-section a{
+    		color:#000;
+    	}
+    	.social-media-section i{
+    		    font-size: 24px;
+    		margin: 0px 6px;
+    	}
+    	.follow-img{
+		    width: 100px;
+    		margin: 0 auto;
+    		margin-top: 28px;
+    	}
+    	.contact-details{
+		    display: flex;
+    		justify-content: space-between;
+    		margin-top: 35px;
+    	}
+    	.contact-details a{
+    		color:#000;
+    		font-family: 'Geomanist-Medium';
+		    font-weight: bolder;
+		    text-decoration: none;
+		    font-size: 18px;
+    	}
+    	.contact-details p{
+    	    display: flex;
+    		align-items: center;
+    		justify-content: center;
+    	}
+    	.contact-details img{
+		    width: 20px;
+    		margin-right: 8px;
+    	}
+    	p.mail{
+    		margin-right: -18px;
+    	}
+    	@media only screen and (max-width: 1024px) {
+    		section{
+			    background-position: center;
+    		}
+    	}
+    	@media only screen and (max-width: 767px) {
+    		p.mail{
+			    margin-right: 0;
+    		}
+    		.video-img{
+			    width: 80%;
+    		}
+    		.contact-details{
+			    flex-direction: column;
+    		}
+    	}
+    </style>
+</head>
+<body>
+
+<section>
+	<div class="inner-section">
+		<a href="#"><img src="video.webp" class="video-img" /></a>
+		<img src="follow-us.webp" class="follow-img" />
+		<div class="social-media-section">
+			<a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+			<a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+			<a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+			<a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+			<a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+			<a href="#" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a>
+		</div>
+		<div class="contact-details">
+			<p class="telephone"><img src="icons/call.png"/><a href="tel:+910000000000">+91 0000000000</a></p>
+			<p class="mail"><img src="icons/message.png"/><a href="mailto:hello@kalakaarglobal.com">hello@kalakaarglobal.com</a></p>
+		</div>
+	</div>
+</section>
+
+</body>
+</html>
+
